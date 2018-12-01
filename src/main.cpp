@@ -43,7 +43,6 @@ void setupWiFi()
 
 void connect()
 {
-    const char* host = "rwmmvdid1hvmqy6p.myfritz.net";
     int port(1130);
     Serial.printf("\n[Connecting to %s ... ", host);
     if (client.connect(host, port)) {
